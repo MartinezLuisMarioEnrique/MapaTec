@@ -1,0 +1,119 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 95%;
+  margin: 20px 20px 20px 20px;
+}
+
+#panorama {
+  height: 100%;
+  width: 90%;
+}
+
+#ventanaEmergente {
+  height: 100%;
+  width: 90%;
+}
+
+#contenido {
+  height: 100%;
+  margin: 20px 20px 20px 20px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #00324b;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #00324b;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  border-style: solid;
+}
+
+.mapsEmbebed {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #00324b;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  border-style: solid;
+}
+
+
+.sidebar .boton-cerrar {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 2rem;
+  display: block;
+  padding: 0;
+  line-height: 1.5rem;
+  margin: 0;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.mapsEmbebed .boton-cerrar {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 2rem;
+  display: block;
+  padding: 0;
+  line-height: 1.5rem;
+  margin: 0;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.sidebar a {
+  display: block;
+  font-size: 120%;
+  color: #eee;
+  text-decoration: none;
+
+}
+
+.mapsEmbebed a {
+  display: block;
+  font-size: 120%;
+  color: #eee;
+  text-decoration: none;
+
+}
+
+.sidebar a:hover {
+  color: #fff;
+  background-color: #f90;
+
+}
+
+.mapsEmbebed a:hover {
+  color: #fff;
+  background-color: #f90;
+
+}

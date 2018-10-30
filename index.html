@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Mapa Tecnológico</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="sidebar" class="sidebar">
+    <a href="#" class="boton-cerrar" onclick="ocultar()">&times;</a>
+    <div id="panorama"></div>
+  </div>
+
+  <div id="mapsEmbebed" class="mapsEmbebed">
+      <a href="#" class="boton-cerrar" onclick="ocultarEmbebed()">&times;</a>
+      <iframe id="ventanaEmergente"></iframe> 
+    </div>
+
+  <div id="contenido">
+    <div id="map"></div>
+  </div>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfdq0MX6c2xat2nGrjhUeB6XNc0Gwp-tM&callback=initMap"></script>
+  <script type="text/javascript" src="js/poligonos_tec.js"></script>
+  <script type="text/javascript" src="js/deportivo.js"></script>
+  <script type="text/javascript" src="js/informacion.js"></script>
+  <script type="text/javascript" src="js/streetview.js"></script>
+  <script type="text/javascript" src="js/ventana.js"></script>
+</body>
+
+</html>
